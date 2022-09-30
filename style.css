@@ -1,0 +1,148 @@
+/* general properties e font poppins 
+per tutto il testo */
+* 
+{
+    box-sizing: border-box;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+
+body 
+{
+    background-image: url("image/background.jpg");
+    background-size: cover;
+}
+
+header 
+{
+    text-align: center;
+}
+
+header>.text 
+{
+    font-size: x-large;
+    font-weight: 500;
+/* color extrat da https://brandfolder.com/workbench/color-palette */
+    color: #01dd01;
+}
+
+img 
+{
+    max-width: 40%;
+    min-width: 10%;
+    height: auto;
+}
+
+button 
+{
+    padding: 2px 8px;
+}
+
+.logo 
+{
+    width: auto;
+    padding: 5px;
+
+}
+
+/* background nero semitrasparente con i lati arotondati  */
+.container 
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    border-radius: 25px;
+    background-color: rgba(12, 12, 12, 0.5);
+}
+
+.buttonsBack 
+{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #01dd01;
+    margin: auto;
+    text-align: center;
+}
+
+.buttonsBack>button 
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+
+.text > span
+{
+    font-weight: 600;
+    size: 200px;
+    font-size: x-large;
+/* eliminate space letters */
+    letter-spacing: -1px;
+/* eliminate space checkbox subtitle */
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.text>input
+{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+/* ---- */
+
+
+
+.text 
+{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0%;
+}
+
+.text>div{
+    margin: 0px;
+}
+
+.carica1 
+{
+    border-radius: 5px;
+    width: 40%;
+    height: 30px;
+    background-color: #f6c172;
+}
+
+.carica2 
+{
+    border-radius: 5px;
+    width: 70%;
+    height: 30px;
+    background-color: green;
+}
+
+.carica3 
+{
+    border-radius: 5px;
+    width: 20%;
+    height: 30px;
+    background-color: #c96363;
+}
+
+/* eliminate space log and title */
+header>div
+{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.logo>img{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+/* container monopatino margin */
+.mono{
+    margin-bottom: 20px;
+}
